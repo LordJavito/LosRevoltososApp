@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="verde_fondo">#a7e300</color>
+    <color name="verde_cesped">#7BB51F</color>
+    <color name="verde_fuente">#3b5000</color>
+
+    <color name="tierra_web">#e09010</color>
+
+    <color name="azul_botones">#87BCE6</color>
+    <color name="azul_cielo">#0072b9</color>
+    <color name="azul_cabeceras">#0101DF</color>
+
+    <color name="black">#000000</color>
+
+    <color name="blanco_fondo_texto">#ffd</color>
+</resources>

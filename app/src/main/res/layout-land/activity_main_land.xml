@@ -1,0 +1,113 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/login_registro_button"
+        android:id="@+id/login_register_button"
+        android:background="@drawable/roundedbutton"
+        android:singleLine="true"
+        android:padding="@dimen/buttons_main_padding"
+        android:clickable="true"
+        android:enabled="true"
+        android:textSize="13sp"
+        android:layout_gravity="right|top" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:layout_width="@dimen/buttons_main_width"
+                android:layout_height="wrap_content"
+                android:text="@string/historia_button"
+                android:id="@+id/historia_button"
+                android:background="@drawable/roundedbutton"
+                android:clickable="true"
+                android:enabled="true"
+                android:padding="@dimen/buttons_main_padding"
+                android:layout_gravity="left" />
+
+            <Button
+                android:layout_width="@dimen/buttons_main_width"
+                android:layout_height="wrap_content"
+                android:text="@string/calendario_button"
+                android:id="@+id/calendario_button"
+                android:background="@drawable/roundedbutton"
+                android:clickable="true"
+                android:enabled="true"
+                android:padding="@dimen/buttons_main_padding"
+                android:layout_gravity="right" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="@dimen/buttons_main_width"
+                android:layout_height="wrap_content"
+                android:text="@string/componentes_button"
+                android:id="@+id/componentes_button"
+                android:background="@drawable/roundedbutton"
+                android:clickable="true"
+                android:enabled="true"
+                android:padding="@dimen/buttons_main_padding"
+                android:layout_gravity="left" />
+
+            <Button
+                android:layout_width="@dimen/buttons_main_width"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto_button"
+                android:id="@+id/contacto_button"
+                android:background="@drawable/roundedbutton"
+                android:clickable="true"
+                android:enabled="true"
+                android:padding="@dimen/buttons_main_padding"
+                android:layout_gravity="right" />
+
+            </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facebook_button"
+            android:background="@drawable/ic_facebook"
+            android:focusableInTouchMode="true"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/web_button"
+            android:background="@drawable/ic_web"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

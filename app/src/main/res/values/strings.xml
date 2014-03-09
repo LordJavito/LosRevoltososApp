@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LosRevoltososApp</string>
+    <string name="login_registro_button">Login/Registro</string>
+    <string name="historia_button">Historia</string>
+    <string name="calendario_button">Calendario</string>
+    <string name="componentes_button">Componentes</string>
+    <string name="contacto_button">Contacto</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="titulo_historia">HISTORIA</string>
+    <string name="titulo_componentes">COMPONENTES</string>
+    <string name="titulo_calendario">CALENDARIO DE ACTUACIONES</string>
+    <string name="titulo_contacto">CONTACTO</string>
+    <string name="body_contacto">Para obtener más información, ver fotos, seguirnos y dejarnos algún comentario en nuestra página de Facebook y en nuestra página web. AÑADIR INFO Y COLOCARLO BIEN</string>
+    <string name="body_historia">\t\t\tConstituida en el mes de Septiembre de 1980, esta charanga ha acogido e instruido a lo largo de su existencia y de forma altruista, a numerosos Musicos y Directores.
+        \n\t\t\tHa participado, y sigue participando, en multitud de fiestas locales, patronales y demás tipos de fiesta imaginables a lo largo de su trayectoria. Como referencia de las fiestas más populares conocidas a nivel nacional e internacional, Los Revoltosos han actuado en Las Fallas de Valencia, Hogueras de San Juan (Alicante), Entierro de La Sardina en Murcia, Caballos del Vino, Moros y Cristianos de Caravaca de la Cruz (Murcia) y en otras muchas fiestas populares.
+        \n\t\t\tCuenta, entre otros, con un Premio Internacional de Bandas, adquirido en el año 1999 en la localidad de San Sebastián, obteniendo las máximas puntuaciones en todas las pruebas de las que constaba el concurso (musicalidad, vestuario, escenificación, animación en la calle), además de una mención especial del jurado, otro premio a la mejor banda solista en Semana Santa en la localidad de Cehegín (Murcia) y un segundo premio en el concurso de Charangas de la Villa de Abarán en el año 2007.
+        \n\t\t\tEsta charanga se caracteriza por su seria disciplina, cuidando mucho la conducta, su repertorio musical y su vestuario. Nuestro logotipo lleva con nosotros desde los comienzos, siendo esta su insignia.
+        \n\n\t\t\tLa charanga Los Revoltosos está bajo la dirección de D. Pascual Marín cuyo curriculum presentamos a conticuación:
+        \n\t\t\tNacido en Cieza el 30 de Junio de 1959. Se inició en la música de la mano de D. Manuel Juan Carrillo Marco, siendo miembro destacado de la desaparecida Agrupación Musical Santa Cecilia de Cieza. A partir de 1980 es miembro de la Banda Municipal de Cieza pasando más tarde a estudiar la Carrera de Saxofón en el Conservatorio Superior de Música de Murcia con los profesores D. Manuel Miján y D. Antonio Salas con el que obtiene el Título de Profesor de Grado Medio. En el mismo Conservatorio estudia hasta Cuarto de Armonía y Melodía Acompañada con la calificación de Sobresaliente.
+        \n\t\t\tHa formado parte de la Banda de Música y Big-Band del Conservatorio Superior de Música de Murcia realizando un cursillo de Jazz con D. Pedro Iturralde. Además ha formado parte de diferentes grupos comerciales y del grupo EMM Jazz.
+        \n\t\t\tDestaca su labor como arreglista de grupos de Cámara y de diversos grupos y Bandas locales.
+        \n\t\t\tDesde 1988 es Profesor de Saxofón de la Escuela Municipal de Música de Cieza. También ha sido Profesor de Saxofón en las escuelas de Lorquí, Molina de Segura, Blanca y Abarán.
+        \n\t\t\tActualmente es Profesor de Saxofón de la Escuela Municipal de Música de Cieza, Profesor de Saxofón y Armonía del Coservatorio Profesional José Gómez Villa y director de la Charanga Los Revoltosos.
+        \n\n\t\t\tComo anécdota, esta charanga ha actuado como teloneros de Manolo Escobar.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_contacto">ContactoActivity</string>
+    <string name="title_activity_componentes">ComponentesActivity</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+    <string name="action_acerca_de">Acerca de</string>
+    <string name="action_developer_info">Aplicación creada por lord_javito</string>
+    <string name="action_volver">Volver</string>
+    <string name="action_salir">Salir</string>
+    <string name="clarinetes">CLARINETES</string>
+    <string name="saxofones_altos">SAXOFONES ALTOS</string>
+    <string name="saxofones_tenores">SAXOFONES TENORES</string>
+    <string name="percusion">PERCUSIÓN</string>
+    <string name="tubas">TUBAS</string>
+    <string name="trombones">TROMBONES</string>
+    <string name="trompetas">TROMPETAS</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

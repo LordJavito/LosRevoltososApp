@@ -1,0 +1,120 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanco_fondo_texto">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_componentes"
+            android:id="@+id/componentes_title_textView"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/verde_fuente"
+            android:background="@color/verde_fondo"
+            android:padding="5dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clarinetes"
+            android:id="@+id/clarinetes_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_clarinetes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saxofones_altos"
+            android:id="@+id/saxAltos_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente"
+            android:layout_marginTop="10dp" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_sax_altos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saxofones_tenores"
+            android:id="@+id/saxTenores_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_sax_tenores" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/percusion"
+            android:id="@+id/percusion_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_percusion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tubas"
+            android:id="@+id/tubas_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_tubas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trombones"
+            android:id="@+id/trombones_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_trombones" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trompetas"
+            android:id="@+id/trompetas_textView"
+            android:background="@color/verde_fondo"
+            android:textSize="@dimen/cabeceras_cuerdas_componentes"
+            android:textColor="@color/verde_fuente" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_trompetas" />
+
+    </LinearLayout>
